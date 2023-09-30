@@ -13,7 +13,7 @@ This repository contains a simple Flask app along with a GitHub Actions Continuo
 
 ## Installation
 
-1. Clone the repository: ```git clone git@github.com:mmartyn3/ci-python-example.git```
+1. Clone the repository: ```git clone https://github.com/mmartyn3/ci-python-example.git```
 2. Navigate to the project directory: ```cd ci-python-example```
 3. Set up a virtual environment: ```python3 -m venv venv```
 4. Activate virtual env: ```source venv/bin/activate```
