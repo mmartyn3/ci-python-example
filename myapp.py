@@ -1,4 +1,4 @@
-# app.py
+# Flask App (myapp.py)
 
 from flask import Flask
 
@@ -11,4 +11,4 @@ def hello():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
