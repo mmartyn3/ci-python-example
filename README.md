@@ -19,10 +19,10 @@ This repository contains a simple Flask app along with a GitHub Actions Continuo
 
 ## Usage
 
-Run the Flask app locally: ```python myapp.py``` then visit `http://127.0.0.1:5000/`
-Lint the Flask app locally: ```flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics```
-Test the Flask app locally: `pytest`
-Format the Flask app locally: `black --line-length 127 myapp.py`
+1. Lint the Flask app locally: ```flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics```
+2. Test the Flask app locally: `pytest`
+3. Format the Flask app locally: `black --line-length 127 myapp.py`
+4. Run the Flask app locally: ```python myapp.py``` then visit `http://127.0.0.1:5000/`
 
 ## CI Pipeline
 
